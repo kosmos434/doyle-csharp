@@ -50,7 +50,7 @@ namespace JoggingDistance
             Console.WriteLine("I'll output the distance travelled in miles");
             Console.WriteLine("honk");
             Console.WriteLine("*************************************************");
-        }//end DisplayHello()
+        }//end DisplayHello
 
 
 
@@ -70,7 +70,7 @@ namespace JoggingDistance
 
             return (firstStrideAverage + lastStrideAverage) / 2;
 
-        }//end StridesInput()
+        }//end StridesInput
 
 
         static int RunTimeInput()
@@ -84,7 +84,7 @@ namespace JoggingDistance
 
             // now to convert to minutes and return
             return (hoursSpent * 60) + minutesSpent;
-        }//end RunTimeInput()
+        }//end RunTimeInput
 
 
 
@@ -124,8 +124,7 @@ namespace JoggingDistance
             Console.WriteLine("TOTAL miles traveled: {0:N2}", distance);
             Console.WriteLine("*************************************************");
             Console.ReadKey();
+        }//end Adios
 
-        }
-
-    }
-}
+    }//end class
+}//end namespace
