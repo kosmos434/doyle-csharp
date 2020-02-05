@@ -121,7 +121,7 @@ namespace JoggingDistance
             Console.WriteLine("*************************************************");
             Console.WriteLine("average strides per minute {0}", stridesPerMinute);
             Console.WriteLine("minutes jogging: {0}", joggingTime);
-            Console.WriteLine("TOTAL miles traveled: {0:N2}", distance);
+            Console.WriteLine("TOTAL miles traveled: {0:f2}", distance);
             Console.WriteLine("*************************************************");
             Console.ReadKey();
         }//end Adios
